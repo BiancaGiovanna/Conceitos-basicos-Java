@@ -4,17 +4,17 @@ public class VariaveisConstantes {
 
 	public static void main(String[] args) {
 		double raio = 4.5;
-		//final é uma constante
+		//final Ã© uma constante
 		final double PI = 3.1416;
 		double area = PI * raio * raio;
 		
-		System.out.println("área é " + area + " m²");
+		System.out.println("ï¿½rea ï¿½ " + area + " mï¿½");
 		
 		//printf formata o print
 		//%f recebe o valor de uma variavel
-		System.out.printf("Área é %f m² \n", area);
+		System.out.printf("ï¿½rea ï¿½ %f mï¿½ \n", area);
 		
-		System.out.printf("Área é %.2f m²", area);
+		System.out.printf("ï¿½rea ï¿½ %.2f mï¿½", area);
 	}
 
 }
